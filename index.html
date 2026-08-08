@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragaraph Counter</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Paragraph Counter</h1>
+        <p class="subtitle">Provide your text and check the counts</p>
+        <div class="container__para">
+            <textarea placeholder="Enter your text...." id="para" maxlength="200">
+    </textarea>
+        </div>
+
+        <div class="container__display">
+            <p id="counter">Written Characters: 0</p>
+            <p id="remaining">Left Characters: 200</p>
+        </div>
+
+        <button type="button" id="btn">Reset</button>
+        <script src="script.js"></script>
+        <p></p>
+</body>
+
+</html>
